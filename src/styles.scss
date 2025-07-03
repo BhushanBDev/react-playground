@@ -1,0 +1,16 @@
+$app-bg: #f0f0f0;
+$text-color: #222;
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background-color: $app-bg;
+}
+
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: $text-color;
+}
